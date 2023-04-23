@@ -1,7 +1,4 @@
 package com.example.homew3_testingmockito.DAO;
-
-
-
 import com.example.homew3_testingmockito.Model.User;
 
 import java.util.ArrayList;
@@ -14,9 +11,7 @@ public class UserDaoImpl {
         this.userList = new ArrayList<>();
         userList.add(new User("Алексей"));
         userList.add(new User("Дмитрий"));
-        userList.add(new User("Константин"));
-        userList.add(new User("Сергей"));
-        userList.add(new User("Екатирина"));
+        userList.add(new User("Елена"));
     }
     public User getUserByName(String name){
         for (User user : userList) {
