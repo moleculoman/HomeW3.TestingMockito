@@ -8,7 +8,7 @@ public class UserDaoImplTest {
     UserDaoImpl userDao = new UserDaoImpl();
 
     @Test
-    public void getUserByName(String name) {
+    void getUserByName() {
         Assertions.assertNotNull(userDao.getUserByName("Петр"));
     }
 
